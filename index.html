@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="./index.css">
+</head>
+
+<body>
+  <section class="msger">
+
+    <div class="container">
+      <div class="container-inner">
+        <div class="msg left-msg">
+          <div class="msg-sender">
+            <div class="msg-info">
+              <div class="msg-info-name">発信者</div>
+              <div class="msg-info-time">00:17.20</div>
+            </div>
+          </div>
+
+          <div class="msg-bubble">
+            <div class="msg-text">
+              もしもし
+            </div>
+          </div>
+        </div>
+        <div class="msg left-msg">
+          <div class="msg-sender">
+            <div class="msg-info">
+              <div class="msg-info-name">発信者</div>
+              <div class="msg-info-time">00:17.20</div>
+            </div>
+          </div>
+
+          <div class="msg-bubble">
+            <div class="msg-text">
+              いつもお世話になっております
+            </div>
+          </div>
+        </div>
+
+        <div class="msg right-msg">
+          <div class="msg-sender">
+            <div class="msg-info">
+              <div class="msg-info-name">着信者</div>
+              <div class="msg-info-time">00:14.96</div>
+            </div>
+          </div>
+
+          <div class="msg-bubble">
+
+            <div class="msg-text">
+              今少しお<span class="keyword">時間</span>よろしいでしょうか
+            </div>
+          </div>
+        </div>
+
+        <div class="msg left-msg">
+          <div class="msg-sender">
+            <div class="msg-info">
+              <div class="msg-info-name">発信者</div>
+              <div class="msg-info-time">00:17.20</div>
+            </div>
+          </div>
+
+          <div class="msg-bubble">
+            <div class="msg-text">
+              はい。大丈夫です
+            </div>
+          </div>
+        </div>
+
+        <div class="msg right-msg">
+          <div class="msg-sender">
+            <div class="msg-info">
+              <div class="msg-info-name">着信者</div>
+              <div class="msg-info-time">00:14.96</div>
+            </div>
+          </div>
+
+          <div class="msg-bubble">
+
+            <div class="msg-text">
+              ありがとうございます
+            </div>
+          </div>
+        </div>
+
+        <div class="msg right-msg">
+          <div class="msg-sender">
+            <div class="msg-info">
+              <div class="msg-info-name">着信者</div>
+              <div class="msg-info-time">00:14.96</div>
+            </div>
+          </div>
+
+          <div class="msg-bubble">
+
+            <div class="msg-text">
+              先日ご提案させていただいた音声認識ソリューションになって本社にご検討させていただいているところと思うのですがご不明な点などございませんか
+            </div>
+          </div>
+        </div>
+
+        <div class="msg left-msg">
+          <div class="msg-sender">
+            <div class="msg-info">
+              <div class="msg-info-name">発信者</div>
+              <div class="msg-info-time">00:17.20</div>
+            </div>
+          </div>
+
+          <div class="msg-bubble">
+            <div class="msg-text">
+              ＜NOISE＞
+            </div>
+          </div>
+        </div>
+
+
+
+      </div>
+      <div class="scroll-marker"></div>
+    </div>
+    <div class="text-center">
+      <button class="button" onclick="addNormalMsg()">普通のメッセージを追加</button>
+      <button class="button" onclick="addKeywordMsg()">注意ワードのメッセージを追加</button>
+    </div>
+  </section>
+
+
+</body>
+
+<script src="./index.js"></script>
+
+<script>
+  renderMarker()
+</script>
+
+</html>
