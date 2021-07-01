@@ -96,6 +96,7 @@ function addNormalMsg() {
   var msgNode = createMsg(randomMsg);
   containerInner.appendChild(msgNode);
   renderMarker();
+  scrollToBottom();
 }
 
 function addKeywordMsg() {
@@ -105,4 +106,9 @@ function addKeywordMsg() {
   );
   containerInner.appendChild(msgNode);
   renderMarker();
+  scrollToBottom();
+}
+
+function scrollToBottom() {
+  containerInner.scrollTo(0, containerInner.scrollHeight);
 }
